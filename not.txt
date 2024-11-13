@@ -1,0 +1,42 @@
+interface (arayüz)
+multiple inheritiance(çoklu kalıtım)
+abstract sınıfların bir üst modelidir
+
+
+
+abstract methodlar otomatik olarak publictir
+arayüzler const ve static özellik içerirler
+Arayüzler interface kelimesi ile bildirilir
+Arayüzde özellik(property), method, indexleyici,temsilci(delegate) ve olay(event)bildirilebilir
+Genel olarak "I" ile başlar
+Arayüzler static olmaz ve publictir
+Yapıcı ve yıkıcı method bulundurmaz
+
+Interface can not implement method.
+abstract class can implement method.
+an Interface can only inherit from another interface.
+an abstract class can inherit from class and one or more interface
+an Interface can not contain fields.
+an abstract can contain fields.
+an Interface can contain property definetion
+an abstract class can implement a property.
+an Interface can not contain constructor or destructor
+an abstract class can contain constructor or destructor
+an Interface can be inherited from by structures
+an abstract class can not be inherited from by structures
+an Interface can support multiple inheritance
+an abstract class can not support multiple inheritiance
+
+
+array  türden bağımsız
+        kapasite sınırlı
+kolleksiyon türden bağımsız
+collection  kapasite sınırsız
+generic türden bağımlı
+şablon türler   kapasite sınırsız
+neden kullanılır:
+tip güvenliği
+sınıf method ve temsilci(delegate) herhangi bir üye elemanın tipinin bildirim esnasında belli olmadığı durumlarda kullanılır
+Sınıf türünden bir nesne oluşturulduğunda şablon türün hangi tip olduğu
+Sinif<int> a=new Sinif<int>();
+yani şablon türün görüldüğü her yer bundan sonra int olarak tanımlanıyor
